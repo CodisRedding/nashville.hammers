@@ -1,0 +1,25 @@
+type Location @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  address: String
+  doorOpenDateTime: AWSDateTime
+  name: String
+  inviteOnly: Boolean
+  inviteOnlyProofToGainEntry: String
+  phone: AWSPhone
+  barTender: String
+  barTenderPhone: AWSPhone
+  canceled: Boolean
+}
+
+type Match @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  title: String
+  kickOffDateTime: AWSDateTime
+  against: String
+  description: String
+  MatchLocation: Location @hasOne
+  away: Boolean
+  londonTeam: Boolean
+  stadium: String
+  stadiumAddress: String
+}
