@@ -1,11 +1,13 @@
 {
   "api": {
     "amplifyDatasource": {
+      "dependsOn": [],
       "output": {
         "authConfig": {
           "additionalAuthenticationProviders": [],
           "defaultAuthentication": {
             "apiKeyConfig": {
+              "apiKeyExpirationDate": "2023-08-31T18:54:47.114Z",
               "apiKeyExpirationDays": 7,
               "description": ""
             },
