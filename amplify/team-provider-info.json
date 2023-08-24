@@ -23,6 +23,11 @@
       "StackName": "amplify-nashvillehammers-dev-132422",
       "StackId": "arn:aws:cloudformation:us-east-2:286928251974:stack/amplify-nashvillehammers-dev-132422/75181f20-42ab-11ee-90f9-0a9c3a2e2e85",
       "AmplifyAppId": "d253830kpxtzoq"
+    },
+    "categories": {
+      "api": {
+        "amplifyDatasource": {}
+      }
     }
   }
 }
