@@ -1,0 +1,181 @@
+# this is an auto generated file. This will be overwritten
+
+subscription OnCreateLocation($filter: ModelSubscriptionLocationFilterInput) {
+  onCreateLocation(filter: $filter) {
+    id
+    address
+    doorOpenDateTime
+    name
+    inviteOnly
+    inviteOnlyProofToGainEntry
+    phone
+    barTender
+    barTenderPhone
+    canceled
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnUpdateLocation($filter: ModelSubscriptionLocationFilterInput) {
+  onUpdateLocation(filter: $filter) {
+    id
+    address
+    doorOpenDateTime
+    name
+    inviteOnly
+    inviteOnlyProofToGainEntry
+    phone
+    barTender
+    barTenderPhone
+    canceled
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnDeleteLocation($filter: ModelSubscriptionLocationFilterInput) {
+  onDeleteLocation(filter: $filter) {
+    id
+    address
+    doorOpenDateTime
+    name
+    inviteOnly
+    inviteOnlyProofToGainEntry
+    phone
+    barTender
+    barTenderPhone
+    canceled
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    __typename
+  }
+}
+
+subscription OnCreateMatch($filter: ModelSubscriptionMatchFilterInput) {
+  onCreateMatch(filter: $filter) {
+    id
+    title
+    kickOffDateTime
+    against
+    description
+    MatchLocation {
+      id
+      address
+      doorOpenDateTime
+      name
+      inviteOnly
+      inviteOnlyProofToGainEntry
+      phone
+      barTender
+      barTenderPhone
+      canceled
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    away
+    londonTeam
+    stadium
+    stadiumAddress
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    matchMatchLocationId
+    __typename
+  }
+}
+
+subscription OnUpdateMatch($filter: ModelSubscriptionMatchFilterInput) {
+  onUpdateMatch(filter: $filter) {
+    id
+    title
+    kickOffDateTime
+    against
+    description
+    MatchLocation {
+      id
+      address
+      doorOpenDateTime
+      name
+      inviteOnly
+      inviteOnlyProofToGainEntry
+      phone
+      barTender
+      barTenderPhone
+      canceled
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    away
+    londonTeam
+    stadium
+    stadiumAddress
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    matchMatchLocationId
+    __typename
+  }
+}
+
+subscription OnDeleteMatch($filter: ModelSubscriptionMatchFilterInput) {
+  onDeleteMatch(filter: $filter) {
+    id
+    title
+    kickOffDateTime
+    against
+    description
+    MatchLocation {
+      id
+      address
+      doorOpenDateTime
+      name
+      inviteOnly
+      inviteOnlyProofToGainEntry
+      phone
+      barTender
+      barTenderPhone
+      canceled
+      createdAt
+      updatedAt
+      _version
+      _deleted
+      _lastChangedAt
+      __typename
+    }
+    away
+    londonTeam
+    stadium
+    stadiumAddress
+    createdAt
+    updatedAt
+    _version
+    _deleted
+    _lastChangedAt
+    matchMatchLocationId
+    __typename
+  }
+}
